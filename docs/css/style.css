@@ -1,0 +1,11 @@
+body {
+  padding: 2rem;
+  transition: .5s;
+}
+.dark-theme {
+  background: #000;
+  color: #ddd;
+}
+#btn {
+  background: #0bd;
+  
