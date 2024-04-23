@@ -4,7 +4,7 @@ btn.addEventListener('click', () => {
   document.body.classList.toggle('dark-theme');
   if(btn.textContent === '🌙') {
     btn.textContent = '☀️';
-  } eles {
+  } eles if {
     btn.textContent = '🌙';
   }
 });
