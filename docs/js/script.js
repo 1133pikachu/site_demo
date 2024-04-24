@@ -4,13 +4,13 @@ btn.addEventListener('click', () => {
   document.body.classList.toggle('dark-theme');
   
   // もしボタンのテキストが「ダークモードにする」になっているなら
-  if(btn.textContent === 'ダークモードにする'){
+  if(btn.textContent === '🌙'){
     // クリックされた時に「ライトモードにする」に変更
-    btn.textContent = 'ライトモードにする';
+    btn.textContent = '☀️';
   
   // そうでないなら（「ライトモードにする」と表示されているなら）
   } else {
     // クリックされた時に「ダークモードにする」に戻す
-    btn.textContent = 'ダークモードにする';
+    btn.textContent = '🌙';
   }
 });
