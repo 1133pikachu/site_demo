@@ -1,6 +1,5 @@
-const isAgreed = document.querySelector('#check');
-const btn = document.querySelector('#btn');
+const menu = document.querySelector('#menu');
 
-isAgreed.addEventListener('change', () => {
-  btn.disabled = !isAgreed.checked;
-});
+const content = `<div><img src="https://assets.codepen.io/85188/strawberry.jpg" alt=""></div>`;
+
+menu.insertAdjacentHTML('beforeend', content);
